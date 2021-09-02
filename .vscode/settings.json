@@ -1,0 +1,27 @@
+{
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "eslint.workingDirectories": [
+    "./API",
+    "./OCAT"
+  ],
+  "cSpell.words": [
+    "Fluffykins",
+    "ITSC",
+    "Microservice",
+    "Microservices",
+    "OCAT",
+    "ORAS",
+    "UCCI",
+    "bcrypt's",
+    "caseplans",
+    "postgres",
+    "postico"
+  ]
+}
