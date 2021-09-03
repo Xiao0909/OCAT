@@ -21,7 +21,7 @@ exports.submit = (assessment) => new Promise((resolve, reject) => {
 exports.getList = () => new Promise((resolve, reject) => {
   // this function sends a request to the API
   // finish the logic to handle the response when returned from the API
-  client.METHOD(`/some-url`,
+  client.get(`/assessment/list`,
     (err, req, res, body) => {
       if (err) {
         return reject(err);

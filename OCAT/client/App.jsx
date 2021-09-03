@@ -10,6 +10,7 @@ export const App = () => <SiteWrapper>
   <BrowserRouter>
     <Route path="/" component={DashboardBulletin} />
     <Route path="/assessment/new" component={NewAssessment} />
+    <Route path="/assessment/list" component={AssessmentList} />
 
   </BrowserRouter>
 </SiteWrapper>;
